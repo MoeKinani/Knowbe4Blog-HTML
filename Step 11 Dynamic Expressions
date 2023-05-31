@@ -1,0 +1,7 @@
+
+
+EmailSubject: items('Apply_to_each')?['subject']
+RecipientEmailAddress: items('Apply_to_each')?['recipientEmailAddress']
+SenderEmailAddress: items('Apply_to_each')?['sender']
+ReceivedDate: items('Apply_to_each')?['receivedDateTime']
+Detail: items('Apply_to_each')?['result']?['detail']
