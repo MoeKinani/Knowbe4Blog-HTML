@@ -1,5 +1,3 @@
-
-
 EmailSubject: items('Apply_to_each')?['subject']
 RecipientEmailAddress: items('Apply_to_each')?['recipientEmailAddress']
 SenderEmailAddress: items('Apply_to_each')?['sender']
